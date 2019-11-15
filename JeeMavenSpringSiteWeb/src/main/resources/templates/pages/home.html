@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Demo App</title>
+<link rel="stylesheet" th:href="@{/css/*.css}"/>
+<script type="text/javascript" th:href="@{/test.js}"></script>
+</head>
+<body>
+    <script>monAlerte()</script>
+ <h1 th:text="'Hello '+ ${name} + ' !!!'">Hello monde !!!</h1>
+ <a href="#" onclick="monAlerte();">lien</a>
+ <button type="button" class="btn btn-primary">Primary</button>
+</body>
+</html>
